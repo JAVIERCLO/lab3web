@@ -1,0 +1,96 @@
+/* =====================
+general
+===================== */
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+/* =====================
+index
+===================== */
+
+.pagina-intro {
+    text-align: center;
+}
+
+.pagina-intro h1 {
+    color: var(--color-primary);
+    font-size: 3rem;
+}
+
+.pagina-intro img {
+    width: 350px;
+    margin: var(--spacing-lg) 0;
+}
+
+/* =====================
+elecciones
+===================== */
+
+.elecciones {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    flex-wrap: wrap;
+}
+
+/* =====================
+media queries para tablets
+===================== */
+
+@media (max-width: 768px) {
+
+    .container {
+        padding: 20px;
+    }
+
+    .pagina-intro h1 {
+        font-size: 2.2rem;
+    }
+
+    .pagina-intro img {
+        width: 250px;
+    }
+
+    .elecciones {
+        gap: 20px;
+    }
+
+    .button {
+        padding: 10px 20px;
+    }
+
+}
+
+/* =====================
+media queries para teléfonos
+===================== */
+
+@media (max-width: 480px) {
+
+    .pagina-intro h1 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 0.95rem;
+    }
+
+    .pagina-intro img {
+        width: 200px;
+    }
+
+    .elecciones {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .button {
+        width: 100%;
+        max-width: 250px;
+    }
+
+}
