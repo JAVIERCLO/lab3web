@@ -14,6 +14,14 @@ index
 
 .pagina-intro {
     text-align: center;
+    background: radial-gradient(
+        circle at center,
+        var(--color-primary) 0%,
+        var(--color-secondary) 40%,
+        var(--color-background) 100%
+    );
+    padding: 60px 20px;
+    border-radius: var(--radius);
 }
 
 .pagina-intro h1 {
@@ -27,14 +35,33 @@ index
 }
 
 /* =====================
-elecciones
+páginas de equpos
 ===================== */
 
-.elecciones {
-    display: flex;
+.pagina-equipo {
     justify-content: center;
-    gap: var(--spacing-lg);
-    flex-wrap: wrap;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.pagina-equipo .container {
+    background-color: var(--color-background);
+    border: 2px solid var(--color-secondary);
+    border-radius: var(--radius);
+    padding: 40px;
+    width: 80%;
+}
+
+/* =====================
+Alineación de textos
+===================== */
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
 }
 
 /* =====================

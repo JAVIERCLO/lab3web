@@ -39,6 +39,14 @@ componentes reutilizables
     padding: var(--spacing-lg);
 }
 
+.pagina-equipo-container {
+    background-color: var(--color-background);
+    border: 2px solid var(--color-secondary);
+    border-radius: var(--radius);
+    padding: 40px;
+    width: 80%;
+}
+
 .button {
     background-color: var(--color-primary);
     color: #1E1E24;
