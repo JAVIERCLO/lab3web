@@ -6,42 +6,27 @@
     <link rel="stylesheet" href="../../css/design-system.css">
     <link rel="stylesheet" href="../../css/styles.css">
 </head>
-<body class="pagina-intro">
+<body class="pagina-temporada">
     <main class="container">
-        <div align="center">
-            <h1>¡Bienvenid@! Antes de empezar esta aventura, elige a tu piloto.</h1>
+            <h1 class="text-center">¡Bienvenid@! Antes de empezar esta aventura, elige a tu piloto.</h1>
             <form action="ofertasDeEquipo.html" method="get">
-                <table>
-                    <tr>
-                        <td>
-                            <button type="submit" name="piloto" value="piloto1">
-                                <img src="../img/piloto1.jpg" width="200">
-                            </button>
-                        </td>
-                        <td>
-                            <button type="submit" name="piloto" value="piloto2">
-                                <img src="../img/piloto2.jpg" width="200">
-                            </button>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <button type="submit" name="piloto" value="piloto3">
-                                <img src="../img/piloto3.jpg" width="200">
-                            </button>
-                        </td>
-                        <td>
-                            <button type="submit" name="piloto" value="piloto4">
-                                <img src="../img/piloto4.jpg" width="200">
-                            </button>
-                        </td>
-                    </tr>
-                </table>
+                <div class="pilotos-grid">
+                    <button type="submit" name="piloto" value="piloto1">
+                        <img src="../img/piloto1.jpg" width="200" class="img-lift">
+                    </button>
+                    <button type="submit" name="piloto" value="piloto2">
+                        <img src="../img/piloto2.jpg" width="200" class="img-lift">
+                    </button>
+                    <button type="submit" name="piloto" value="piloto3">
+                        <img src="../img/piloto3.jpg" width="200" class="img-lift">
+                    </button>
+                    <button type="submit" name="piloto" value="piloto4">
+                        <img src="../img/piloto4.jpg" width="200" class="img-lift">
+                    </button>
+                </div>
                 <br>
                 <br>
-                <input type="submit" value="Continuar">
             </form>
-        </div>
     </main>
 </body>
 </html>
