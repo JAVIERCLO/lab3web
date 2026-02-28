@@ -53,6 +53,18 @@ páginas de equpos
 }
 
 /* =====================
+grid para decisiones
+===================== */
+
+.decision-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+/* =====================
 Alineación de textos
 ===================== */
 
