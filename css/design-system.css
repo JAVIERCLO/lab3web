@@ -88,3 +88,17 @@ lift para imágenes
     filter: brightness(0.9);
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
 }
+
+/* =====================
+fondo para paginas de temporada
+===================== */
+
+.pagina-temporada {
+    min-height: 100vh;
+    background: linear-gradient(
+        160deg,
+        var(--color-background) 0%,
+        var(--color-accent) 70%,
+        var(--color-primary) 100%
+    );
+}
