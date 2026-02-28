@@ -68,3 +68,23 @@ componentes reutilizables
     padding: var(--spacing-md);
     border-radius: var(--radius);
 }
+
+/* =====================
+lift para imágenes
+===================== */
+
+.img-lift {
+    transform: translateY(0);
+    transition:
+        filter 0.2s ease,
+        transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1),
+        box-shadow 0.3s ease;
+
+    cursor: pointer;
+}
+
+.img-lift:hover {
+    transform: translateY(-8px);
+    filter: brightness(0.9);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
